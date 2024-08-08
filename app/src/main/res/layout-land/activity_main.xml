@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+  <include
+      android:id="@+id/toolbar"
+      layout="@layout/toolbar"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="60dp"
+      android:fontFamily="@font/chalk"
+      android:text="@string/app_name"
+      android:textColor="@color/white"
+      android:textSize="40dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/copyright"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="10dp"
+      android:fontFamily="@font/chalk"
+      android:text="@string/copyright"
+      android:textColor="@color/white"
+      android:textSize="9dp"
+      app:layout_constraintBottom_toTopOf="@+id/version"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/version"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="20dp"
+      android:fontFamily="@font/chalk"
+      android:text="@string/version"
+      android:textColor="@color/white"
+      android:textSize="9dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/btn_login"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="10dp"
+      android:backgroundTint="@color/green"
+      android:fontFamily="@font/chalk"
+      android:text="@string/login"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      app:layout_constraintBottom_toTopOf="@+id/btn_register"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/btn_register"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="40dp"
+      android:backgroundTint="@color/green"
+      android:fontFamily="@font/chalk"
+      android:text="@string/register"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      app:layout_constraintBottom_toTopOf="@+id/copyright"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/btn_rules"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginStart="37dp"
+      android:layout_marginBottom="31dp"
+      android:backgroundTint="@color/blue"
+      android:fontFamily="@font/chalk"
+      android:text="@string/rules"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/btn_quit"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginEnd="40dp"
+      android:layout_marginBottom="31dp"
+      android:backgroundTint="@color/red"
+      android:fontFamily="@font/chalk"
+      android:text="@string/quit"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

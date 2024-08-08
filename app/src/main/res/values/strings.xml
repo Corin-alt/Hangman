@@ -1,0 +1,70 @@
+<resources>
+
+    <!--General-->
+    <string name="app_name">Pendu</string>
+    <string name="copyright" translatable="false">© Copyright 2020 - Dupont Corentin</string>
+    <string name="version" translatable="false">v1.0</string>
+
+
+    <!--Notification-->
+    <string name="notif_lang_msg">Vous avez choisi de mettre votre applicaton en</string>
+
+    <!--MainActivity-->
+    <string name="register">Creer un compte</string>
+    <string name="login">Se connecter</string>
+    <string name="quit">Quitter</string>
+
+    <!--Other-->
+    <string name="lang">Langue</string>
+    <string name="rules">Regles</string>
+    <string name="profile">Profile</string>
+    <string name="tel_charged">Votre téléphone est en charge.</string>
+    <string name="tel_not_charged">Votre téléphone ne charge plus.</string>
+
+    <!--Register-->
+    <string name="pseudo" translatable="false">Pseudo</string>
+    <string name="confirm_password">Confirmez</string>
+    <string name="create">Creer</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="title_success">Succés </string>
+    <string name="msg_email">Email incorrecte !</string>
+    <string name="msg_field">Tous les champs doivent être remplis !</string>
+    <string name="msg_match_password">Les deux mot de passe ne correspondent pas !</string>
+    <string name="msg_email_already_use">Cet email est déjà utilisé !</string>
+    <string name="msg_success_register">Votre compte a bien été créee !</string>
+
+
+    <!--Register & Login-->
+    <string name="title_error">Erreur </string>
+    <string name="msg_failed_login">"Le mail ou le mot de passe est incorrect ! "</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="btn_back">Retour</string>
+    <string name="connection">Connexion</string>
+
+    <!--Toolbar-->
+    <string name="tb_profile" translatable="false">Profile</string>
+    <!--Menu-->
+    <string name="title_menu" translatable="false">Menu</string>
+    <string name="one_player">1 joueur</string>
+    <string name="two_player">2 joueurs (WIP)</string>
+    <string name="msg_setting">Choissisez la langue:</string>
+    <string name="setting_lang_fr">Français</string>
+    <string name="setting_lang_en">Anglais</string>
+
+    <!--Profile-->
+    <string name="profile_title">Retrouvez ici vos statistiques.</string>
+    <string name="profile_victory">Victoire</string>
+    <string name="profile_defeat">Defaite</string>
+
+    <!--Game-->
+    <string name="welcome_back">Bon retour parmi nous</string>
+    <string name="send">Proposer</string>
+    <string name="letter_already_use">Vous avez déjà entré cette lettre.</string>
+    <string name="victory">Vous avez gagné ! </string>
+    <string name="defeat">Vous avez perdu  ! </string>
+    <string name="awnser">Le mot à trouver était:  </string>
+    <string name="restart">Rejouer</string>
+    <string name="logout">Déconnexion</string>
+
+</resources>

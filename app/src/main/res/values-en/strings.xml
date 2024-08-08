@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HangingMan</string>
+    <string name="register">Create an account</string>
+    <string name="login">Connect</string>
+    <string name="confirm_password">Confirm</string>
+    <string name="create">Create</string>
+    <string name="title_success">Success</string>
+    <string name="msg_field">All fields must be filled in!</string>
+    <string name="msg_match_password">The two passwords do not match!</string>
+    <string name="msg_email_already_use">This email is already in use!</string>
+    <string name="msg_success_register">Your account has been created !</string>
+    <string name="title_error">"Error "</string>
+    <string name="msg_failed_login">"The email or password is incorrect! "</string>
+    <string name="password">Password</string>
+    <string name="btn_back">Return</string>
+    <string name="connection">Connection</string>
+    <string name="send">Suggest</string>
+    <string name="letter_already_use">ou have already entered this letter.</string>
+    <string name="victory">You win !</string>
+    <string name="defeat">You lose !</string>
+    <string name="awnser">"The word to find was:  "</string>
+    <string name="restart">Play again</string>
+    <string name="logout">Disconnect</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="quit">Quit</string>
+    <string name="rules">"Rules "</string>
+    <string name="notif_lang_msg">You have chosen to put your application in</string>
+    <string name="one_player">1 player</string>
+    <string name="two_player">2 players (WIP)</string>
+    <string name="msg_setting">Choose the language:</string>
+    <string name="setting_lang_fr">French</string>
+    <string name="setting_lang_en">English</string>
+    <string name="profile_title">Find your statistics here.</string>
+    <string name="profile_victory">Victory</string>
+    <string name="profile_defeat">Defeat</string>
+    <string name="msg_email">Email incorrect !</string>
+    <string name="lang">Language</string>
+    <string name="tel_charged">Your phone is charging.</string>
+    <string name="tel_not_charged">Your phone is no longer charging.</string>
+</resources>
